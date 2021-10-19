@@ -7,10 +7,15 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.anushka.viewmodeldemo2.databinding.ActivityMainBinding
 
-// I can use this design to make my trykberegner app work with viewModels, sO it dont destroy
+// Continued from VIewModelDemo 2
+// ADD implementation of LiveData
+// I can use this design to make my trykberegner app work with viewModels, so it dont destroy
 // when i switch to landscape mode
 
 class MainActivity : AppCompatActivity() {
+
+    // can delete just for test git branches
+    val testLiveDta = "Test"
 
     //
     private lateinit var binding: ActivityMainBinding
